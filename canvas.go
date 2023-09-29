@@ -188,7 +188,8 @@ func Todos() ([]TODO, error) { return ca.Todos() }
 // TODO is a to-do struct
 type TODO struct {
 	Type              string      `json:"type"`
-	Assignement       *Assignment `json:"assignment"`
+	Assignment        *Assignment `json:"assignment"`
+	Quiz              *Quiz       `json:"quiz"`
 	Ignore            string      `json:"ignore"`
 	IgnorePerminantly string      `json:"ignore_perminantly"`
 	HTMLURL           string      `json:"html_url"`

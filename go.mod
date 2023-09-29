@@ -1,4 +1,4 @@
-module github.com/harrybrwn/go-canvas
+module github.com/ArchWizard56/go-canvas
 
 go 1.14
 
